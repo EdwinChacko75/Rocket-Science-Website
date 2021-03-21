@@ -315,3 +315,141 @@ body {
         cursor: pointer;
         transition: 200ms;
     }
+/* Computers In Rocket Science Page */
+    #computer-container {
+        position: relative;
+        text-align: center;
+    }
+    #computer-background {
+        z-index: -1;
+    }
+    /* Page Header */
+    #computer-header {
+        position: absolute;
+        margin-top: 10vh;
+        left: 35vw;
+        font-size: 2.66vw;
+        color: #DDEDF4;
+        background-color: #212221;
+        padding: 0.9975vw;
+        width: 31vw;
+        font-family: 'Newsreader', serif;
+        font-weight: normal;
+        border-style: solid;
+    }
+    /* Section 1 - Calculations and Navigation */
+    #cal {
+        position: absolute;
+        top: 17vw;
+        margin-left: 18vw;
+        z-index: 2;
+        color: #DDEDF4;
+        font-size: 1.6625vw;
+        padding: 2vw;
+        background-color: blue;
+        border: orange solid 0.1996vw;
+        border-radius: 1.33vw;
+        text-decoration: underline #ddedf4 0.1995vw;
+    }
+    #cal-content {
+        position: absolute;
+        top: 30vw;
+        margin-right: 15vw;
+        margin-left: 15vw;
+        padding: 0.997vw;
+        z-index: 2;
+        background-color: orange;
+        border: blue solid 0.1996vw;
+        color: black;
+        font-size: 2vw;
+        border-radius: 1.33vw;
+    }
+    /* Section 2 - Systems Management */
+        /* Section Header */
+    #system-management-container{
+        text-align: center;
+        position: relative;
+        margin: 0vw 5vw 55vw 5vw;
+    }
+    #system-management-header {
+        position: absolute;
+        top: 6vw;
+        margin-left: 13vw;
+        z-index: 2;
+        color: #DDEDF4;
+        font-size: 1.6625vw;
+        padding: 2vw;
+        background-color: blue;
+        border: orange solid 0.1996vw;
+        border-radius: 1.33vw;
+        text-decoration: underline #ddedf4 0.1995vw;
+    }
+    #system-management-content {
+        position: absolute;
+        top: 21vw;
+        margin-right: 43vw;
+        margin-left: 3.5vw;
+        padding: 0.997vw;
+        z-index: 2;
+        background-color: orange;
+        border: blue solid 0.1996vw;
+        color: black;
+        font-size: 2vw;
+        border-radius: 1.33vw;
+    }
+    #orchestra-image {
+        position: absolute;
+        top: 21.8vw;
+        margin-left: 5.5vw;
+        margin-right: 0vw;
+        border: orange solid 0.1996vw;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        width: 39.9vw;
+        height: auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* Section 3 - Interstellar Maneuvers */
+    /* Section Header */
+    #interstellar-maneuvars {
+        text-align: center;
+        position: relative;
+        margin: 0vw;
+    }
+    #interstellar-maneuvars-header {
+        position: absolute;
+        top: 6vw;
+        margin-left: 13vw;
+        z-index: 2;
+        color: #DDEDF4;
+        font-size: 1.6625vw;
+        padding: 2vw;
+        background-color: blue;
+        border: orange solid 0.1996vw;
+        border-radius: 1.33vw;
+        text-decoration: underline #ddedf4 0.1995vw;
+    }
+    #interstellar-maneuvars-content {
+        position: absolute;
+        top: 21vw;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        padding: 0.997vw;
+        z-index: 2;
+        background-color: rgba(0, 0, 255, 0.6);
+        border: orange solid 0.1996vw;
+        color: #DDEDF4;
+        font-size: 2vw;
+        border-radius: 1.33vw;
+    }
+    #iss-image {
+        z-index: -1;
+        width: 100%;
+        margin: 0% -0.9% 0% -1%;
+    }
