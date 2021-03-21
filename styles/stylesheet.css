@@ -1,0 +1,317 @@
+/* Header Formatting */
+head {
+    margin: 0% 0% 0% 0%;
+}
+/* Body Formatting */
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: lightblue;
+    height: 100%;
+}
+/* Navigation Bar */
+    /* File Paths */
+    .nav ul {
+        list-style-type: none; 
+        font-size: 1.33vw;
+        background-color: orange;
+        font-family: 'Newsreader', serif;
+        text-align: center;
+        overflow: hidden;
+        margin: 0% 0% 0% 0%;
+    }
+    .nav li {
+        float: left;
+        text-align: center;
+    }
+    .nav li a {
+        display: block;
+        color: #000000;
+        padding: 2.5vw 3.99vw 2.5vw 3.99vw;
+        text-decoration: none;
+        margin: 0%;
+    }
+    .nav li a:hover {
+        color: #DDEDF4;
+        background-color: #212221;
+    }
+    .nav a.active {
+        color: #DDEDF4;
+        background-color: #212221;
+    }
+/* Home Page */
+    /* Section 1 - Introduction */
+    #introduction-container {
+        position: relative;
+        text-align: center;
+        background-color: black;
+    } 
+    /* Introduction Header */ 
+    #introduction-header {
+        position: absolute;
+        margin-top: 10vh;
+        left: 37.5vw;
+        font-size: 2.66vw;
+        color: #DDEDF4;
+        background-color: #212221;
+        padding: 0.9975vw;
+        width: 22vw;
+        font-family: 'Newsreader', serif;
+        font-weight: normal;
+        border-style: solid;
+    }
+    /*  IntroductionContent */
+    #introduction-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family:  'Source Sans Pro', sans-serif;
+        font-size: 3.325vw;
+        color: #DDEDF4;
+        padding: 1.995vw;
+        width: 45vw;
+        background: rgb(33, 34, 33);
+        background: rgba(33, 34, 33, 0.65);
+    }
+    /* Introduction Background */
+    #sunrise-background {
+        z-index: -1;
+    }
+/* What Is Rocket Science Page */
+    /* What Is Rocket Science Section */
+    #what-is-container {
+        position: relative;
+        text-align: center;
+        margin: 0%;
+        background-color: #212221;
+    } 
+    /* Section Background */
+    #sunrise-background {
+        z-index: -1;
+    }
+    /* Section Header */
+    #what-is-header {
+        position: absolute;
+        margin-top: 10vh;
+        left: 35vw;
+        font-size: 2.66vw;
+        color: #DDEDF4;
+        background-color: #212221;
+        padding: 0.9975vw;
+        width: 31vw;
+        font-family: 'Newsreader', serif;
+        font-weight: normal;
+        border-style: solid;
+    }
+    #what-is-content {
+        color: #44449B;
+        font-size: 1.6625vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        background: rgb(221, 237, 244);
+        background: rgba(221, 237, 244, 0.65);
+        padding: 0.665vw;    
+        margin: 0.3325vw;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-color: #44449B;
+        border-style: solid;
+        border-width: 2px;
+    }
+    /* Newton's Third Law Section */
+    #newtons-law-container {
+        position: relative;
+        text-align: center;
+        background-color: #212221;
+        padding: 5vw 0vw 36vw 0vw;
+        margin-top: 0%;
+    }
+    #newtons-law-header {
+        text-align: center;
+        color: #DDEDF4;
+        font-size: 1.6625vw;
+        font-family: 'Newsreader', serif;
+        text-decoration: underline #DDEDF4;    
+        margin-bottom: 2vw;
+    }
+    #newtons-law-content {
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        left: 50%;
+        margin-right: 10%;
+        font-size: 1.66vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #DDEDF4;
+        padding: 15px;
+        border: #DDEDF4;
+        border-style: solid;
+        border-width: 0.3325vw;
+        background: rgb(221, 237, 244);
+        background: rgba(221, 237, 244, 0.3);
+    }
+    #newton {
+        width: 28vw;
+        height: auto;
+        filter:saturate();
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        border: #DDEDF4 solid 0.3325vw;
+        border-radius: 1000px;
+    }
+    #rocket-animation {
+        position: relative;
+        top: 35vw;
+        width: 100%;
+        height: auto;
+    }
+    * {box-sizing:border-box}
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: 3vw 10vw 0vw 15vw;
+      height: 41vw;
+      background-color: rgb(80, 198, 245);
+      left: 2vw;
+    }
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    #rocker-diagram {
+        position: relative;
+        top: 3.6vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: gray;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    /* Caption text */
+    .slideshow-caption {
+      color: #000000;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    /* Number text */
+    .slideshow-num {
+      color: gray;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px 1vw;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    #discussion-one-container {
+        text-align: center;
+        position: relative;
+        margin-bottom: 0%;
+        background-color: #000000;
+    }
+    #discussion-one-header {
+        color: #DDEDF4;
+        font-size: 2vw;
+        font-family: 'Newsreader', serif;
+        text-decoration: underline #DDEDF4;    
+        position: absolute;
+        top: 5vw;
+        left: 43vw;
+        z-index: 1;
+    }
+    #discussion-one-question {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 15%;
+        right: 15%;
+        font-size: 3vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #DDEDF4;
+        padding: 15px;
+        border: #DDEDF4;
+        border-style: solid;
+        border-width: 0.3325vw;
+        background: rgb(221, 237, 244);
+        background: rgba(221, 237, 244, 0.3);
+        z-index: 1;
+    }
+    #disucssion-background {
+        opacity: 0.6;
+        position: relative;
+    }
+    #footer {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: orange;
+        text-align: center;
+    }
+    /* Back To Top Button */
+    #top-button {
+        color: #DDEDF4;
+        background-color: #212221;
+        padding: 0.9975vw;
+        border: #DDEDF4 solid 0.133vw;
+        font-size: 1.33vw;
+        font-family: 'Newsreader', serif;
+    }
+    #top-button:hover {
+        color: #212221;
+        background-color: rgb(255, 230, 0);
+        border: #212221 solid 0.1996vw;
+        cursor: pointer;
+        transition: 200ms;
+    }

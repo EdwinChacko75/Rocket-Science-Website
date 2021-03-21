@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Science </title>
+    <!--Fonts used-->
+    <!-- Cascading Style Sheets Reference -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <!-- JavaScript Reference -->
+    <script src="../scripts/main.js"></script>
+</head>
+<body>
+    <!--Top Nav Bar Starts-->
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../pages/what-is-rs.html" class="active">Rocket Science</a></li>
+            <li><a href="../pages/computers-in-rs.html">Computers In Rocket Science</a></li>
+            <li><a href="../pages/future.html">Innovations</a></li>
+        </ul>
+    </div>
+    <div id="what-is-container">
+        <div id="what-is-header">What is Rocket Science?</div>
+        <!--Title to rocket science-->
+        <div id="what-is-content">
+            Rocket science is the branch of aerospace engineering that studies rockets and the many variables that affect 
+            the performance of them. Today we will discuss rockets in extraterrestrial endeavours.
+
+        </div>
+        <img src="../images/rocket-science-background.jpg" id="rocket-background" alt="Rocket Background" width="100%">
+    </div> 
+    <div id="newtons-law-container">
+        <div id="newtons-law-header">Newton's Third Law</div> <!--Title for Newtons third law-->
+        <div id="newtons-law-content"> <!--Text-->
+            Sir Issac Newton discovered that for every action force, there is an equal and opposite reaction force. 
+            The aforementioned is Newton’s third law of motion and is one of the fundamental principles dictating the success 
+            of rockets. On earth, there is a thick atmosphere that allows for a variety of different sources of lift. Hot air 
+            balloons, airfoils, jet engines, and even electricity are to name a few. In space, however, there are negligible 
+            amounts of gas particles restricting the use of traditional methods of flight. Rockets work in space since they 
+            don't need an atmosphere to function.
+
+        </div>
+        <img src="../images/issac-newton.jpg" id="newton" alt="Sir Issac Newton Portrait">
+        <marquee id="rocket-animation" behavior="scroll" direction="right">
+            <img src="../images/rocket-animation.gif" alt="Swimming fish">
+        </marquee>
+    </div>
+    <div class="slideshow-container">
+        <!-- Jet Engine And Rocket Propulsion Diagrams -->
+        <div class="mySlides fade">
+            <div class="slideshow-num">1 / 2</div>
+            <!-- Jet Engine Diagram -->
+            <img src="../images/rocket-diagram.png" id="rocker-diagram" alt="Rocket Diagram" style="width:100%; margin-top: 3vw;">
+            <div class="slideshow-caption">Rocket Propulsion Diagram</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="slideshow-num">2 / 2</div>
+            <!-- Rocket Propousion Diagram -->
+            <img src="../images/jet-engine-diagram.jpg" id="jet-engine-diagram" alt="Jet Engine Diagram" style="width:100%; margin-top: 3vw;">
+            <div class="slideshow-caption">Jet Engine Diagram</div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- Bottom Dots -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <div id="discussion-one-container"> <!--Discussion question-->
+        <div id="discussion-one-header">Discussion Question:</div>
+        <div id="discussion-one-question">
+            Given the considerable amount of human effort and resources
+            required to design and develop a rocket, what criteria might be used in
+            determining a pilot for such a vehicle?            
+        </div>
+        <img src="../images/discussion-one-background.jpg" alt="UN Security Council Mural" id="disucssion-background" width="100%">
+    </div>
+</body>
+<footer id="footer">
+    <!-- Button Function -->
+    <button onclick="topFunction()" id="top-button" title="Go to top">Back To Top</button>
+</footer>
+</html>
