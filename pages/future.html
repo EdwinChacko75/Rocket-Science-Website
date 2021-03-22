@@ -10,6 +10,7 @@
     <!-- Cascading Style Sheets Reference -->
     <link rel="stylesheet" href="../styles/stylesheet.css">
     <!--JavaScript Reference -->
+    <script src="../scripts/main.js"></script>
 </head>
     <div class="nav">
         <ul>
@@ -19,54 +20,48 @@
             <li><a href="../pages/future.html" class="active">Innovations</a></li>
         </ul>
     </div>
-    <div id="heading_container">
-        <!--First Background-->
-        <!--Top Header Text-->
-        <!--If you want this in the header, move it up-->
+    <div id="future">
+        <!-- Page Header -->
+        <div id="innovations-header">Innovations</div>
+        <!-- Section Header -->
+        <div id="future-header">Reusable Rockets</div>
+        <div id="future-content">
+            Remember that guy we mentioned in the beginning, Sir Isaac Newton or something like that.
+            Well that guy once said “what goes up must come down”. SpaceX has applied this idea to
+            their Falcon 9 rocket by not simply sending it up, but by bringing the booster back down
+            in a controlled manner. This drastically reduces the cost for space travel as the multi
+            million dollar rocket can be reused rather than crashing into the ocean.
+        </div>
+        <img src="../images/falcon-heavy-landing.jpg" width="100%">
     </div>
-    <div id="future_container">
-        <div id="title_future">What is the future of Rocket Science?</div>
-        <div id="title_reusable_rocket"> Reusable Rockets </div>
-        <div id="photo_text_reusable_rocket"> <!--Container for Reusable Rockets-->
-            <div id="text_reusable_rocket">
-                Remember that guy we mentioned in the beginning, Sir Isaac Newton or something like that.
-                Well that guy once said “what goes up must come down”. SpaceX has applied this idea to
-                their Falcon 9 rocket by not simply sending it up, but by bringing the booster back down
-                in a controlled manner. This drastically reduces the cost for space travel as the multi
-                million dollar rocket can be reused rather than crashing into the ocean.
-            </div>
-            <div id="photo_reusable_rocket">
-                <!---Replace with something better-->
-                <!--Add photo here -->
-            </div>
-        </div>
-        <div id="title_fun_fact">Fun Fact!</div>
-        <div id="photo_text_fun_fact">
-            <div id="text_fun_fact">
-                The Falcon 9 rocket uses JavaScript, HTML, and CSS in their displays!
-            </div>
-            <div id="photo_fun_fact">
-                <!---Replace with something better-->
-                <!--Add photo here -->
-            </div>
-        </div>
-        <div id="title_innovations">Innovations</div>
-        <div id="innovations_video"> <!--Container for Nasa Video-->
-            <!-- NASA video -->
-            <video id="nasa-video" controls>
-                <source src="../images/middle-child-clean.mp4" alt="6 NASA Technologies to Get Humans to Mars by NASA">
-                <!--Change video link-->
-                Your browser does not support this video tag
-            </video>
-            <!-- Video Reference -->
-            <a href="https://www.youtube.com/watch?v=N0f-QkEVU7U" target="_blank" id="NASA-video-link">Video By NASA</a>
-        </div>
-        <div id="discussion_second"> <!--Container for Discussion-->
-            Discussion: After hearing of these accomplishments in rocket science, it seems 
+    <div id="fun-fact">
+        <div id="fact-header">Fun Fact!</div>
+        <div id="fact-content">The Falcon 9 rocket uses JavaScript, HTML, and CSS in their displays!</div>
+        <img src="../images/html-logo.png" id="html-logo" class="logos" alt="HTML Logo Image">
+        <img src="../images/css-logo.png" id="css-logo" class="logos" alt="CSS Logo Image">
+        <img src="../images/javascript-logo.png" id="js-logo" class="logos" alt="JavaScript Logo Image">
+    </div>
+    <div id="inventions">
+        <div id="inventions-header">New Technologies</div>
+        <video id="inventions-video" controls>
+            <source src="../images/innovations-video.mp4" alt="6 NASA Technologies to Get Humans to Mars by NASA">
+            Your browser does not support this video tag
+        </video>
+        <!-- Video Reference -->
+        <a href="https://www.youtube.com/watch?v=N0f-QkEVU7U" target="_blank" id="NASA-video-link">Video By NASA</a>
+    </div>   
+    <div id="discussion-two">
+        <div id="discussion-two-header">Discussion Question:</div>
+        <div id="discussion-two-content">
+            After hearing of these accomplishments in rocket science, it seems 
             that space travel is becoming ever the more accessible to the general public. 
             What are your thoughts on the commercialization of space travel? Do you think it will happen?
         </div>
+        <img src="../images/discussion-one-background.jpg" alt="UN Security Council Mural" id="disucssion-background" width="100%">
     </div>
 </body>
-
+<footer id="footer">
+    <!-- Button Function -->
+    <button onclick="topFunction()" id="top-button" title="Go to top">Back To Top</button>
+</footer>
 </html>
